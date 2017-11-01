@@ -1,0 +1,296 @@
+body{
+  margin-top:50px;
+  font-size:16px;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family:Poppins;
+}
+
+p{
+  font-family:Roboto;
+}
+
+.navbar-default{
+  background:#fff;
+  border:0;
+  font-family:Poppins;
+
+}
+#navbar .hover-change a:hover {
+	color: #80DEEA;
+}
+
+.logo-wrapper {
+	margin-top: -15px;
+  max-width: 150px;
+  max-height: 50px;
+}
+
+#showcase {
+	background: url('../img/showcase.jpg');
+
+	background-size : cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 700px;
+	
+}
+
+#showcase h1{
+  font-size:50px;
+  margin-bottom:20px;
+  padding-top: 20px;
+  margin-left: 20px;
+  color: 4b4d4f;
+}
+
+
+#showcase p {
+  color: #4b4d4f;
+  font-size: 20px;
+  margin-left: 50px;
+
+}
+
+#showcase img{
+  width:90%;
+  margin-left:60px;
+}
+
+#showcase .showcase-left{
+  margin-top:200px;
+  margin-left: -110px;
+  padding:0;
+  background-color: rgba(244, 244, 244,0.4);
+  width: 800px;
+  height: 150px;
+}
+
+
+
+#testimonial{
+  background:	#80DEEA;
+  padding: 50px 0 30px 0;
+  text-align:center;
+
+}
+
+#testimonial p{
+  font-size:32px;
+  font-family: 'Josefin Sans';
+  color: white;
+}
+
+#testimonial p.customer{
+  font-size:20px;
+  color: #4b4d4f;
+}
+
+/* about styling */
+
+#about .info-left {
+	
+	background: url('../img/about.jpg') no-repeat 0px -50px;
+	background-size: cover;
+	min-width: 50%;
+	min-height: 400px;
+	margin-left: -110px;
+	
+}
+
+
+
+#about .info-right{
+  padding-left: 90px;
+}
+
+#about {
+	height: 620px;
+	padding: 100px 0 80px 0;
+
+}
+
+/* about styling */
+
+
+/* products */
+
+#products {
+	
+	height: 700px;
+
+}
+#products .container-fluid {
+	
+	margin-left: 50px;
+
+}
+
+#products .h-drugs {
+	background: url('../img/products/hbg.jpg')no-repeat -200px 0;
+	background-size: cover;
+	height: 500px;
+	width: 26%
+}
+
+
+#products .p-drugs {
+	background: url('../img/products/pbg.jpg')no-repeat -200px 0;
+	background-size: cover;
+	height: 500px;
+	width: 26%;
+}
+
+
+#products .m-drugs {
+	background: url('../img/products/mbg.jpg')no-repeat -200px 0;
+	background-size: cover;
+	height: 500px;
+	width: 26%
+}
+
+#products .p-contents {
+	
+	background: rgba(38, 198, 218,0.4);
+	transition: all .2s ease-in-out;
+	height: 500px;
+	width: 100%
+}
+
+#products .p-contents:hover {
+	transform: scale(0.9);
+}
+
+#products .h-contents {
+	
+	background: rgba(38, 198, 218,0.4);
+	transition: all .2s ease-in-out;
+	height: 500px;
+	width: 100%
+}
+
+#products .h-contents:hover {
+	transform: scale(0.9);
+}
+
+#products .m-contents {
+	
+	background: rgba(38, 198, 218,0.4);
+	transition: all .2s ease-in-out;
+	height: 500px;
+	width: 100%
+}
+
+#products .m-contents:hover {
+	transform: scale(0.9);
+}
+
+
+
+#products .p-contents figure {
+	
+	margin-top: 200px;
+	color: white;
+}
+
+#products .h-contents figure {
+	
+	margin-top: 200px;
+	color: white;
+}
+
+#products .m-contents figure {
+	
+	margin-top: 200px;
+	color: white;
+}
+
+
+
+#products .squer-bul {
+    width: 95px;
+    height: 75px;
+    border: 4px solid #FFFFFF;
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 33px;
+    font-family: 'DINPro-Bold';
+    text-align: center;
+    line-height: 53px;
+}
+
+
+
+
+
+
+
+/* products */
+
+
+
+#contact{
+  background: #4DD0E1;
+  padding:40px;
+  color:#fff;
+}
+
+
+#contact .mailbox img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.mailbox #address  {
+  padding-top: 30px;
+  color: white;
+}
+
+#contact {
+  padding: 0 0 90px 0 ;
+}
+
+#contact h1{
+	
+	font-size: 70px;
+	color: #006064;
+
+}
+
+
+
+.mailbox .add-text {
+  max-width: 250px;
+  padding: 10px;
+}
+
+.mailbox h6 {
+      line-height: 150%;
+}
+
+.mailbox #loc {
+  padding: 10px;
+  padding-left: 0;
+  padding-top: 0;
+}
+
+
+
+footer{
+  padding:10px;
+  background: #006064;
+  border-top: 3px solid red;
+  color: #B2EBF2;
+}
+
+footer .foot-home {
+  color: white;
+  text-decoration: none;
+}
+
+footer .foot-home {
+  color: white;
+  text-decoration: none;
+}
+
